@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#b6fcd5"
+    android:fillViewport="true" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+	        android:id="@+id/show_name2"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:paddingLeft="6dip"
+	        android:paddingRight="6dip"
+	        android:paddingBottom="6dip"
+	        android:layout_marginTop="30dp"
+	        android:text="Name" />
+    
+    	<TextView
+	        android:id="@+id/show_health_card_num2"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:paddingLeft="6dip"
+	        android:paddingRight="6dip"
+	        android:paddingBottom="6dip"
+	        android:layout_marginTop="10dp"
+	        android:text="Health Card Num" />
+    
+   		<TextView
+	        android:id="@+id/show_dob2"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:paddingLeft="6dip"
+	        android:paddingRight="6dip"
+	        android:paddingBottom="6dip"
+	        android:layout_marginTop="10dp"
+	        android:text="Date of Birth" />
+   		
+   		<TextView
+            android:id="@+id/visit_record_data"
+            android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:paddingLeft="6dip"
+	        android:paddingRight="6dip"
+	        android:paddingBottom="6dip"
+	        android:layout_marginTop="10dp"
+            android:text="Visit Record" />
+  
+    </LinearLayout>
+</ScrollView>
+

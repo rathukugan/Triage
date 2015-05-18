@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="group0932.triage"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_medkit"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".PatientView"
+            android:label="@string/title_activity_patient_view" >
+        </activity>
+        <activity
+            android:name=".UpdateVitals"
+            android:label="@string/title_activity_update_vitals" >
+        </activity>
+        <activity
+            android:name=".ViewPatientRecord"
+            android:label="@string/title_activity_view_patient_record" >
+        </activity>
+        <activity
+            android:name=".UpdatePrescrip"
+            android:label="@string/title_activity_update_prescrip" >
+        </activity>
+        <activity
+            android:name=".PhysicianMain"
+            android:label="@string/title_activity_physician_main" >
+        </activity>
+        <activity
+            android:name=".PhysicianPatientView"
+            android:label="@string/title_activity_physician_patient_view" >
+        </activity>
+        <activity
+            android:name=".CreatePatientActivity"
+            android:label="@string/title_activity_create_patient" >
+        </activity>
+        <activity
+            android:name=".UrgencyList"
+            android:label="@string/title_activity_urgency_list" >
+        </activity>
+    </application>
+
+</manifest>

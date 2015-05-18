@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="login_button">
+        <item name="android:textColor">#1a3659</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <string name="app_name">Triage</string>
+    <string name="lookup_healthnum">Enter a Health Card Number</string>
+    <string name="action_settings">Settings</string>
+    <string name="health_card_num">Health Card #</string>
+    <string name="submit_text">Submit</string>
+    <string name="title_activity_patient_view">Patient Record</string>
+    <string name="new_visit_record">Create</string>
+    <string name="update_visit_record">Update</string>
+    <string name="save_visit_record">Save</string>
+    <string name="view_visit_record">View</string>
+    <string name="view_visit_record2">View Patient Data</string>
+    <string name="title_activity_update_vitals">Record Vital Signs</string>
+    <string name="label_temp">Temperature (\u00B0 C)</string>
+    <string name="label_blood_press">Blood Pressure (mmHg)</string>
+    <string name="label_heart_rate">Heart Rate (bpm)</string>
+    <string name="temp">Temperature</string>
+    <string name="blood_press">Systolic</string>
+    <string name="blood_press2">Diastolic</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="record_vitals">Record</string>
+    <string name="bpress_prompt">Choose a unit</string>
+    <string name="title_activity_view_patient_record">Visit Records</string>
+    <string name="vital_sign_history">Vital Sign History</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main">Patient Lookup</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="label_prescrip">Record Prescription</string>
+    <string name="title_activity_update_prescrip">Prescriptions</string>
+    <string name="label_add_prescrip">Add a Prescription</string>
+    <string name="label_med"> Medication </string>
+    <string name="label_instruct"> Instructions </string>
+    <string name="title_activity_physician_main">Patient Lookup</string>
+    <string name="title_activity_physician_patient_view">Patient View</string>
+    <string name="title_activity_create_patient">New Patient</string>
+    <string name="label_password"> Password </string>
+    <string name="label_user"> Username </string>
+    <string name="label_login_screen"> Login Screen </string>
+    <string name="label_login"> Login </string>
+    <string name="label_newpatient"> Add New Patient </string>
+    <string name="label_patient_info"> Enter Patient\&apos;s Information </string>
+    <string name="label_firstname"> First Name </string>
+    <string name="label_year"> YYYY </string>
+    <string name="label_lastname"> Last Name </string>
+    <string name="label_dob"> Date of Birth (YYYY/MM/DD): </string>
+    <string name="label_day"> DD </string>
+    <string name="label_month"> MM </string>
+    <string name="label_dash"> - </string>
+    <string name="label_healthcardnum"> Health Card Number </string>
+    <string name="urgency_list">View Urgency List</string>
+    <string name="title_activity_urgency_list">Urgency List</string>
+    <string name="urgency_activity_text">List of patients haven\'t yet been seen by a doctor sorted by decreasing urgency:</string>
+    <string name="seen_by_doctor">Seen By Doctor</string>
+
+</resources>

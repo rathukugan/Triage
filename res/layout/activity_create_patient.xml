@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nurse_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="group0932.triage.CreatePatientActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_patient_info" />
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="19dp"
+        android:ems="6"
+        android:hint="@string/label_firstname" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/yyyy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/first_name"
+        android:layout_below="@+id/first_name"
+        android:layout_marginTop="57dp"
+        android:ems="4"
+        android:hint="@string/label_year" />
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/yyyy"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/first_name"
+        android:ems="6"
+        android:hint="@string/label_lastname" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mm"
+        android:layout_alignLeft="@+id/yyyy"
+        android:text="@string/label_dob" />
+
+    <EditText
+        android:id="@+id/dd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/health_card_num"
+        android:layout_toRightOf="@+id/textView2"
+        android:ems="3"
+        android:hint="@string/label_day" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/yyyy"
+        android:layout_toRightOf="@+id/yyyy"
+        android:text="@string/label_dash"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignRight="@+id/textView1"
+        android:ems="3"
+        android:hint="@string/label_month" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/health_card_num"
+        android:layout_toLeftOf="@+id/dd"
+        android:text="@string/label_dash"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/health_card_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/yyyy"
+        android:layout_below="@+id/yyyy"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/label_healthcardnum" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/health_card_num"
+        android:layout_below="@+id/health_card_num"
+        android:layout_marginTop="18dp"
+        android:onClick="create_new_patient"
+        android:text="@string/submit_text" />
+
+</RelativeLayout>
